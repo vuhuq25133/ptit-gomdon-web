@@ -1,0 +1,50 @@
+# ==============================================================================
+# GITIGNORE - PTIT GOM DON WEB (HUB QUẢN TRỊ & HỘP THƯ 3 CỘT)
+# ==============================================================================
+
+# 1. Thư mục thư viện phụ thuộc (TUYỆT ĐỐI KHÔNG ĐẨY LÊN GIT)
+**/node_modules/
+node_modules/
+
+# 2. Thư mục build / bundle
+**/dist/
+**/dist-ssr/
+**/build/
+dist/
+
+# 3. File môi trường & bí mật (Bảo vệ thông tin cấu hình)
+**/.env
+**/.env.local
+**/.env.*.local
+*.local
+# (Chỉ giữ lại file cấu hình mẫu)
+!**/.env.example
+
+# 4. Logs & Nhật ký tiến trình
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 5. Cache trình biên dịch & Bundler
+**/.vite/
+**/.vite-temp/
+.eslintcache
+.stylelintcache
+
+# 6. File rác hệ điều hành Windows / macOS
+desktop.ini
+Thumbs.db
+.DS_Store
+$RECYCLE.BIN/
+
+# 7. Cấu hình IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+

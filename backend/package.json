@@ -1,0 +1,20 @@
+{
+  "name": "gomdon-backend",
+  "version": "1.0.0",
+  "description": "BFF API cho Gom Đơn Hub – kết nối PostgreSQL Lakehouse",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "PTIT",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
